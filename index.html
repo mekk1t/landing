@@ -9,8 +9,11 @@
 
   <body>
     <header class="page-header">
+      <div class="container">
+        <a class="header-email" href="mailto:kit.kalimov@gmail.com">kit.kalimov@gmail.com</a>
+        <a class="header-phone" href="tel:+79006275488">+7 900 627 54 88</a>
+      </div>
     </header>
-
 
       <section class="hero-image">
         <div class="container">
@@ -21,10 +24,21 @@
         </div>
       </section>
 
-
     <section class="intro">
       <div class="container">
       <h2 class="subheading">Давайте познакомимся</h2>
+      <figure class="user-image">
+        <img src="files/me.jpg" width="928" alt="Автор сайта, Никита Калимов">
+        <figcaption>
+          Я, 14-летний
+        </figcaption>
+      </figure>
+      <figure class="user-image">
+        <img src="files/me-now.jpg" width="928" alt="Автор сайта, Никита Калимов, но постарше">
+        <figcaption>
+          <i>И 9 лет спустя...</i>
+        </figcaption>
+      </figure>
       <h3>Пара слов о себе</h3>
       <p>Я <em>обожаю</em> грамотно составленный сайт:
         ничто не отвлекает пользователя, всё работает на решение его проблем.
@@ -79,12 +93,17 @@
     </div>
     </section>
 
-
     <section class="portfolio">
       <div class="container">
         <h2 class="subheading">Мои работы</h2>
 
         <h3>ИС для сети кинотеатров</h3>
+        <figure class="project-image">
+          <img src="files/projects/oasis.png" width="928">
+          <figcaption>
+            Да, я тогда вообще не разбирался в верстке сайтов.
+          </figcaption>
+        </figure>
         <p>Мой первый сайт. Вернее, это даже не просто сайт, а веб-приложение,
           у которого есть своя база данных.<br>
           Проект выполнялся в рамках дипломной работы и на мой взгляд -- очень
@@ -99,7 +118,14 @@
           продам кому-нибудь!
           </i>
         </p>
+        <a class="button" target="_blank" href="https://github.com/mekk1t/Oasis">Исходный код</a>
         <h3>Агрегатор кулинарных рецептов</h3>
+        <figure class="project-image">
+          <img src="files/projects/kitbook.png" width="928">
+          <figcaption>
+            Вот, уже получше. Используется Bootstrap.
+          </figcaption>
+        </figure>
         <p>
           Очень амбициозный проект. Агрегатор призван сгруппировать рецепты из
           самых разных источников: ВК, YouTube, Instagram, авторские сайты и другие
@@ -113,6 +139,7 @@
             версия для дисциплины "Веб-программирование", ГУАП.
           </i>
         </p>
+        <a class="button" target="_blank" href="https://github.com/mekk1t/KitBook">Исходный код</a>
         <h3>Цифровой Офис / Цифровая карта Офиса</h3>
         <p>
           Мои первые <em>серьезные</em> проекты. Выполнялись в рамках студенческих
@@ -122,13 +149,22 @@
           Также узнал, как строить микросервисную архитектуру, общаться через брокер сообщений
           и тестировать приложения.
         </p>
+        <a class="button" target="_blank" href="https://github.com/mekk1t/DigitalOffice">Форк "Цифровой Офис"</a>
+        <a class="button" target="_blank" href="https://github.com/mekk1t/OfficeMap">Форк "Цифровая Карта Офиса"</a>
         <h3>Кодировщик текстовых сообщений</h3>
+        <figure class="project-image">
+          <img src="files/projects/cypher.png" width="928">
+          <figcaption>
+            <del>Очень базовый и прототипный интерфейс. Я фокусировался на функционале и понятности.</del><br>
+            <ins>О Боже, шакалы! Перезалью скриншот, когда буду ретушировать проект.</ins>
+          </figcaption>
+        </figure>
         <p>
           Настольное приложение WPF на C# для кодирования текстовых сообщений.
           Использовался шифр Виженера.<br>
           <b>Учебный проект</b>
         </p>
-
+        <a class="button" target="_blank" href="https://github.com/mekk1t/IS_Design_Methodology/tree/lab1">Исходный код</a>
         <h3>Личный блог</h3>
         <p>
           В своем блоге я хочу писать об изведанном: какие технологии изучил или
@@ -139,6 +175,12 @@
           <i>Проект находится на стадии планирования</i>
         </p>
         <h3>Файловый органайзер</h3>
+        <figure class="project-image">
+          <img src="files/projects/futler.png" width="928">
+          <figcaption>
+            Прототип интерфейса. Взят из отчета по лабораторной работе.
+          </figcaption>
+        </figure>
         <p>
           Сервис, который будет по настройкам пользователя подчищать систему или
           приводить её в порядок: фильтровать, сортировать, удалять файлы итд.
@@ -176,11 +218,12 @@
 
     <footer class="page-footer">
       <div class="container">
-        Контакты в подвале
-        <ul>
-          <li><a href="https://github.com/mekk1t">GitHub</a></li>
-          <li><a href="https://vk.com/mekk1t">VK</a></li>
-        </ul>
+        Контакты:
+        <a class="footer-telegram" href="https://telegram.me/mekk1t" target="_blank">Telegram</a>
+        <a class="footer-skype" href="skype:
+live:.cid.ad650911f9872e1f?userinfo">Skype</a>
+        <a class="footer-github" target="_blank" href="https://github.com/mekk1t">GitHub</a>
+        <a class="footer-vk" target="_blank" href="https://vk.com/mekk1t">ВКонтакте</a>
       </div>
     </footer>
   </body>

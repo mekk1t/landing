@@ -167,6 +167,7 @@ body {
   border-radius: 4px;
   background-color: #288be6;
   color: #ffffff;
+  margin: 0 0 15px 0;
 }
 
 .page-footer {
@@ -186,6 +187,28 @@ body {
 .footer-email {
   padding-left: 30px;
   background-image: url("img/icon-email-footer.svg");
+}
+
+.footer-vk {
+  padding-left: 30px;
+  background-image: url("img/vk-logo.svg");
+}
+
+.footer-telegram {
+  padding-left: 30px;
+  background-image: url("img/telegram-logo.png");
+  background-size: 20px 20px;
+}
+
+.footer-skype {
+  padding-left: 30px;
+  background-image: url("img/skype-logo.png");
+  background-size: 20px 20px;
+}
+
+.footer-github {
+  padding-left: 30px;
+  background-image: url("img/github-logo.svg");
 }
 
 .footer-phone {
