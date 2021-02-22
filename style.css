@@ -118,6 +118,19 @@ body {
   background-image: url("img/icon-css.svg");
 }
 
+.skill-csharp{
+  background-image: url("img/csharp.svg");
+}
+.skill-fsharp{
+  background-image: url("img/fsharp.svg");
+}
+.skill-js{
+  background-image: url("img/js.png");
+}
+.skill-ts{
+  background-image: url("img/ts.png");
+}
+
 .level {
   margin: 4px 0 16px;
   padding: 0;
