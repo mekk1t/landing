@@ -151,7 +151,7 @@ body {
 }
 
 .projects p {
-  margin: 0 0 24px;
+  margin: 0 0 24 0px;
 }
 
 .button {
@@ -163,6 +163,13 @@ body {
   border-radius: 4px;
   background-color: #712073;
   color: #ffffff;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.container p {
+  margin-bottom: 10px;
 }
 
 .page-footer {
@@ -196,10 +203,10 @@ body {
   background-image: url("img/fsharp.svg");
 }
 .skill-js{
-  background-image: url("img/js.png");
+  background-image: url("img/js.svg");
 }
 .skill-ts{
-  background-image: url("img/ts.png");
+  background-image: url("img/ts.svg");
 }
 
 .footer-vk {
@@ -222,4 +229,36 @@ body {
 .footer-github {
   padding-left: 30px;
   background-image: url("img/github-logo.svg");
+}
+
+.background-custom {
+  font-style: italic;
+  background-color: #170628;
+  border-radius: 30px;
+}
+
+blockquote {
+  padding: 15px;
+}
+
+.zakk-photo {
+  float: left;
+  width: 200px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.project-type {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.remarks {
+  padding: 15px;
+  margin-top: 10px;
 }
