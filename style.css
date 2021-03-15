@@ -224,3 +224,17 @@ body {
   padding-left: 30px;
   background-image: url("img/github-logo.svg");
 }
+
+blockquote {
+  padding: 15px;
+  font-style: italic;
+  background-color: #170628;
+  border-radius: 30px;
+}
+
+.zakk-photo {
+  float: left;
+  width: 200px;
+  padding: 10px;
+  margin-right: 10px;
+}
