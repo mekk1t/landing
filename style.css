@@ -151,7 +151,7 @@ body {
 }
 
 .projects p {
-  margin: 0 0 24px;
+  margin: 0 0 24 0px;
 }
 
 .button {
@@ -164,6 +164,12 @@ body {
   background-color: #712073;
   color: #ffffff;
   margin-bottom: 40px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.container p {
+  margin-bottom: 10px;
 }
 
 .page-footer {
@@ -225,11 +231,14 @@ body {
   background-image: url("img/github-logo.svg");
 }
 
-blockquote {
-  padding: 15px;
+.background-custom {
   font-style: italic;
   background-color: #170628;
   border-radius: 30px;
+}
+
+blockquote {
+  padding: 15px;
 }
 
 .zakk-photo {
@@ -242,4 +251,14 @@ blockquote {
 figcaption {
   font-style: italic;
   font-size: 14px;
+}
+
+.project-type {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.remarks {
+  padding: 15px;
+  margin-top: 10px;
 }
