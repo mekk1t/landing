@@ -238,3 +238,8 @@ blockquote {
   padding: 10px;
   margin-right: 10px;
 }
+
+figcaption {
+  font-style: italic;
+  font-size: 14px;
+}
